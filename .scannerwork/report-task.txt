@@ -1,0 +1,6 @@
+projectKey=ReactNativeScanner
+serverUrl=http://localhost:9000
+serverVersion=10.2.1.78527
+dashboardUrl=http://localhost:9000/dashboard?id=ReactNativeScanner
+ceTaskId=AYtvZlDd6MKWqQEO0vrj
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYtvZlDd6MKWqQEO0vrj

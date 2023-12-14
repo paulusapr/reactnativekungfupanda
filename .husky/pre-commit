@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+echo 'Styling, testing and building your project before comitting'
+
+yarn test ||
+(
+    echo 'Yoo, there is still error on your components, Check Code
+    Run yarn test, add changes and try commit again.';
+    false;
+)
+
+echo 'Yeayy, there is no error in your code... I am committing this now.'
+
+npx lint-staged
